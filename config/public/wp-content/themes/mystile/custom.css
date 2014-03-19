@@ -1,0 +1,102 @@
+/* 
+WOO CUSTOM STYLESHEET
+---------------------
+
+Instructions:
+
+Add your custom styles in this file instead of style.css so it 
+is easier to update the theme. Simply copy an existing style 
+from style.css to this file, and modify it to your liking. */
+
+
+/* 
+GLOBAL STYLES
+----------------
+Add styles beneath this line that you want to be applied across your entire site */
+
+
+/* 
+DESKTOP STYLES
+-----------------
+Add styles inside the media query below that you only want to be applied to the desktop layout of your site */
+@media only screen and (min-width: 768px) {
+	/* Desktop styles go here */
+}
+
+#header #navigation ul.nav > li a {
+	border-radius: 0;
+}
+
+.breadcrumb-trail a {
+	color: #F9F2E7;
+}
+
+#breadcrumbs .trail-end {
+	color: #FFF;
+}
+
+.site-title a {
+	color: #F9F2E7;
+}
+
+.entry {
+	font-size: 16px;
+}
+
+.entry ul {
+	margin-left: 30px;
+}
+
+.entry a {
+	background-color: #F9F2E7;
+}
+
+.post header h1 a {
+	color: #ac7953;
+}
+
+.post header h1 a:hover {
+	color: #F9F2E7;
+}
+
+#header hgroup {
+	margin-bottom: 0;
+}
+
+.product-categories > li > a img {
+	width: 25px;
+	height: 25px;
+}
+
+.widget h3 {
+	color: #F9F2E7;
+	font-size: 1.244em;
+	font-family: "Bree Serif", sans-serif;
+}
+
+.product-categories a {
+	font-size: 16px;
+	font-weight: normal;
+	color: #F9F2E7;
+}
+
+.product-categories a:hover {
+	color: #ac7953;
+}
+
+#main h1 {
+	font-size: 1.244em;
+}
+
+ul.products li.product h3 {
+	font-size: 1em;
+}
+
+.woocommerce-review-link {
+	color: #ac7953;
+}
+
+.my-slider .slider-wrapper{
+	background-color: transparent !important;
+	padding: 0 !important;
+}
